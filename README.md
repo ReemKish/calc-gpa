@@ -7,7 +7,7 @@ Simple CLI program to calculate GPA, with support for some queries.
 - `-y` is for selecting courses of a specific year, e.g: `-y 2018`
 - `-s` is for selecting courses of a specific semester, e.g: `-s A`
 - `-ub` & `lb` is for selecting courses whose grades are withing a specific range, e.g. : `-lb 70 -ub 100` means the grade should be above 70 & below 100
-- `datafile` is the file that contains the info about the courses (most importantly, their grades).
+- `datafile` contains the info about the courses (most importantly, their grades).
 
 The program scans the datafile, filters some courses according to the specified query, then prints the filtered courses and the calculated GPA in a pretty format.
 
@@ -30,7 +30,7 @@ ______|___________|_____|____________________________________|______
 ```
 This example makes use of the program's ignore policy: In detail, the 1st line of the input file is always ignored, and so is every line that begins with `'_'`, `'-'` or `'#'`. courses with grade value `???` will also be ignored.
 
-Therefore, the following `datafile` contents are parsed equivalently to the previous example, albeit less pretty:
+Therefore, the following `datafile` contents, albeit less pretty, are parsed equivalently to the previous example:
 ```
 # first line is ignored
 2018B|0368-1118|6|DiscreteMath|98
