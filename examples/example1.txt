@@ -1,0 +1,17 @@
+# first line is ignored
+2018B|0368-1118|6|DiscreteMath|98
+2019A|0368-1105|6|ExtendedIntroToComputerScience|67
+2019B|0366-1111|7|LinearAlgebra1a|100
+2020A|0366-1101|7|Calculus1a|78
+2020A|0368-2157|4|Software1|89
+2020B|0366-2010|5|IntroToProbability|85
+2020B|0368-2158|4|DataStructures|90
+2021A|0366-1102|7|Calculus2a|87
+2021A|0366-1112|6|LinearAlgebra2a|99
+2021A|0368-2159|4|ComputerStructure|90
+2021B|0368-2160|4|Algorithms|71
+2021B|0368-2161|2|SoftwareProject|???
+2021B|0368-2200|4|ComputationalModels|???
+2021B|0368-2162|4|OperatingSystems|???
+2021B|0368-3235|4|IntroToMachineLearning|???
+2021B|0366-2140|4|NumberTheory|???
